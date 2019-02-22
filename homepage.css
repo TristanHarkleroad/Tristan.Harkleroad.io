@@ -1,0 +1,103 @@
+h1 {
+    background: teal;
+    padding: 20px;
+    color: white;
+    float: left;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.picture {
+    clear: both;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.a {
+    text-indent: 15px;
+    padding-left: 5px;
+}
+
+.b {
+    text-indent: 15px;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+html {
+    height: 100%;
+    margin: 0%;
+    background-image: url("prism.png");  
+}
+
+body {
+    background-color: lightslategrey;
+    overflow: auto;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+}
+
+h3 { 
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.wrapper {
+    background-color:white;
+    text-align: center;
+    color: black;
+    min-height: 100%; 
+    margin-bottom: -50px;
+    clear: both;
+}
+
+footer,.push {
+    height: 50px;   
+}
+
+section.contactme {
+    color: white;
+}
+
+li {
+    float: right; 
+    padding: 5px 5px;    
+}
+
+li a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    background-color:black;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+li a:hover {
+    background-color: teal;
+}
+  
+.active {
+    background-color: darkslateblue;
+}
+
+ul.topbar {
+    list-style-type: none;
+    padding: 20px 10px 0px 0px;
+}
+
+.border {
+    border-bottom: white solid 5px;
+    position: relative;
+    padding-top: 12px;
+    color: lightslategray;
+}
+
+.clearfix { 
+    display: block;
+    clear: both;
+}
