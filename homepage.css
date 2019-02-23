@@ -52,6 +52,7 @@ h3 {
     min-height: 100%; 
     margin-bottom: -50px;
     clear: both;
+    border-top: lightsalmon 5px solid;
 }
 
 footer,.push {
