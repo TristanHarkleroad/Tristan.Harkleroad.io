@@ -50,29 +50,38 @@ section.contactme {
     color: white;
 }
 
+ul {
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+  
 li {
-    float: right; 
-    padding: 5px 5px;    
-}
-
-li a {
-    display: inline-block;
-    color:white;
-    text-align: center;
-    text-decoration: none;
-    background-color:black;
     list-style-type: none;
-    margin: 5px;
-    padding: 5px;
+    float: right;
+    background: white;
 }
+  
+li a {
+   
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        
 
+}
+  
 li a:hover {
     background-color: teal;
 }
   
 .active {
-    background-color: darkslateblue;
+    background-color: teal;
 }
+
 
 ul.topbar {
     list-style-type: none;
