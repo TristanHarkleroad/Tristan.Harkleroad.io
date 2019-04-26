@@ -3,60 +3,52 @@
    
 <head>
   <meta charset="UTF-8">
-  <title> Tristan Harkleroad </title> 
+  <title> Tristan Harkleroad </title>
+  <link rel= "stylesheet" href= "../../reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Exo" rel="stylesheet">
   <link rel= "stylesheet" href= "contact.css">
 </head>
 
-<body> 
- 
-  <header>
-
-  <section> 
-   
-    <h1> Tristan Harkleroad </h1>
-  
-  </section>
-
-  <ul class= "topbar">
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="index.html" class="active">About</a></li>
-  </ul>
-
-  </header>
- 
-    <section>
-
-      <h2 id= "ContactMe"> Contact Me </h2>
-
-    </section>
-
-    <div class="container">
-        <form action="/action_page.php">
-         <label for="fname">First Name</label>
-         <input type="text" id="fname" name="firstname" placeholder="Your name?">
+<body>
+  <div class="container text-center" id="background">
+      <ul class= "topbar">
+        <h1 id="name"> Tristan Harkleroad </h1>
+          <div class="pages">
+            <div class="pages">
+              <li><a href="index.html" class="tops">About</a></li>
+              <li><a href="portfolio.html" class="tops">Portfolio</a></li>
+              <li id="contact"><a href="contact.html" class="tops">Contact</a></li>
+          </div>
+      </ul>
+      <div class="row-navbar"></div>
+      
+        <form action="/action_page.php"  id="contactBox">
+          <h2 id= "ContactMe"> Contact Me </h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name?">
           
-         <label for="email">Email</label>
-         <input type="text" id="email" name="email" placeholder="username@example.com">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="username@example.com">
           
-         <label for="subject">Subject</label>
-         <textarea id="subject" name="subject" placeholder="Type message here" style="height:200px"></textarea>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Type message here" style="height:200px"></textarea>
           
-         <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
         </form>
-    </div>
-
     
-  </body>
+        <div class="sidenav">
+          <a href="https://www.linkedin.com/in/tristan-harkleroad-4ab32a149/" class="links"><i class="fab fa-linkedin fa-4x"></i></a>
+          <a href="https://www.facebook.com/tristan.harkleroad" class="links"><i class="fab fa-facebook-f fa-4x" ></i></a>
+          <a href="https://github.com/TristanHarkleroad" class="links"><i class="fab fa-github fa-4x"></i></a>
+          <a href="https://zety.com/mycv/tristanharkleroad" class="links"><i class="fas fa-user-circle fa-4x"></i></a>
+        </div>
 
-  <div class="wrapper">
-
-      Copyright © 
- 
- <div class="push"></div>
- </div>
-   <footer class="footer"></footer>
- 
- </div>
+      <div class="wrapper">Copyright ©<div class="push"></div></div>
+          <footer class="footer"></footer>
+  
+  </div>
+</body>
 
 </html>
